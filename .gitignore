@@ -1,0 +1,26 @@
+## Ignore diretórios de build e IDE
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+## Ignore arquivos temporários do sistema
+*.DS_Store
+*.swp
+*.bak
+*.tmp
+*.log
+Thumbs.db
+
+## Ignore pacotes
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+## Ignore arquivos do Rider
+.idea/
+
+## Ignore arquivos do Visual Studio Code
+.vscode/
